@@ -1,12 +1,21 @@
+package examples;
+
 import fridgets.*;
 import javax.swing.*;
 import java.util.ArrayList;
+
+import fridgets.FrButton;
+import fridgets.FrFlow;
+import fridgets.FrView;
+import fridgets.Fridget;
 import nz.sodium.*;
+
+import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class flow {
     public static void main(String[] args) {
         JFrame frame = new JFrame("flow");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setContentPane(Transaction.run(() -> {
             FrButton ok = new FrButton(new Cell<>("OK"));
             FrButton cancel = new FrButton(new Cell<>("Cancel"));
@@ -24,6 +33,7 @@ public class flow {
                       )
                   );
             return new FrView(frame, dialog) {
+                @Override
                 public void removeNotify() {
                     super.removeNotify();
                     l.unlisten();

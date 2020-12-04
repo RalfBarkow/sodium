@@ -321,10 +321,11 @@
     </profile>
   </profiles>
   <dependencies>
-    <dependency>
-      <groupId>nz.sodium</groupId>
-      <artifactId>sodium</artifactId>
-      <version>1.1.0</version>
-    </dependency>
+      <!-- https://mvnrepository.com/artifact/nz.sodium/sodium -->
+      <dependency>
+          <groupId>nz.sodium</groupId>
+          <artifactId>sodium</artifactId>
+          <version>1.2.0</version>
+      </dependency>
   </dependencies>
 </project>

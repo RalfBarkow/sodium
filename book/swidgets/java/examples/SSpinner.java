@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import swidgets.*;
 import nz.sodium.*;
+import swidgets.STextField;
 
 public class SSpinner extends JPanel {
     SSpinner(int initialValue) {

@@ -3,6 +3,8 @@ import java.awt.*;
 import java.util.Calendar;
 import swidgets.*;
 import nz.sodium.*;
+import swidgets.SButton;
+import swidgets.SDateField;
 
 public class airline1 {
     public static void main(String[] args) {

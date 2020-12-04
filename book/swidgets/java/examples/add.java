@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.FlowLayout;
 import swidgets.*;
 import nz.sodium.*;
+import swidgets.SLabel;
+import swidgets.STextField;
 
 public class add {
     public static void main(String[] args) {

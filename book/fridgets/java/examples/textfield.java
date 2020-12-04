@@ -1,6 +1,13 @@
+package examples;
+
 import fridgets.*;
 import javax.swing.*;
 import java.util.ArrayList;
+
+import fridgets.FrButton;
+import fridgets.FrFlow;
+import fridgets.FrTextField;
+import fridgets.Fridget;
 import nz.sodium.*;
 
 public class textfield {
